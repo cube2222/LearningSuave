@@ -1,4 +1,4 @@
-module LearningSuave.Api
+module SimpleRest.Api
 
 open Newtonsoft.Json
 open Newtonsoft.Json.Serialization
@@ -7,8 +7,7 @@ open Suave.Successful
 open Suave.WebPart
 open Suave.Filters
 open Suave.RequestErrors
-
-let (>=>) = compose
+open Suave.Operators
 
 [<AutoOpen>]
 module Rest =

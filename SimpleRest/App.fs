@@ -1,5 +1,5 @@
-open LearningSuave.Api
-open LearningSuave.Db
+open SimpleRest.Api
+open SimpleRest.Db
 open Suave.Web
 open Suave.Successful
 

@@ -1,4 +1,4 @@
-module LearningSuave.Db
+module SimpleRest.Db
 open System.Collections.Generic
 type Person = {
     Id: int
